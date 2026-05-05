@@ -10,9 +10,6 @@ export default function AboutMe(props) {
                     designed with accessibility in mind, meeting WCAG standards. The contact form 
                     uses EmailJS and yes it will actually send me an email.
                 </p>
-                <p>
-                    I enjoy creating art in both traditional and digital mediums.
-                </p>
             </div>
         </div>
     );
