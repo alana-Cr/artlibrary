@@ -7,7 +7,11 @@ export default function AboutMe(props) {
                     I am a Computer Science student at UW-Madison with an equal love of making art
                     and frontend development. I built this site from scratch using React, Vite, and
                     Bootstrap, with custom CSS throughout. It's responsive across devices and
-                    designed with accessibility in mind, meeting WCAG standards. Hope you like it!
+                    designed with accessibility in mind, meeting WCAG standards. The contact form 
+                    uses EmailJS and yes it will actually send me an email.
+                </p>
+                <p>
+                    I enjoy creating art in both traditional and digital mediums.
                 </p>
             </div>
         </div>

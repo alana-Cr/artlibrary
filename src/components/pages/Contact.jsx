@@ -38,10 +38,12 @@ export default function Contact() {
   };
 
   return (
-    <div className="container mt-4">
-      <h1 className="mb-4" style={{color: "white"}}>Contact</h1>
+    <div className="d-flex flex-column align-items-center mt-4" style={{color: "white"}}>
+      <div className="d-flex flex-column w-50">
+      <h1 className="mb-4">Contact</h1>
+      <h2 className="mb-4" style={{ fontSize: "1.5rem"}}>Let me know what's on your mind. Professional inquiries, feedback, artist recommendations, that weird dream you had last night, whatever you wanna talk about. Just let it out.</h2>
 
-      <Form style={{color: "white"}} ref={formRef} onSubmit={handleSubmit}>
+      <Form ref={formRef} onSubmit={handleSubmit}>
         <Form.Group className="mb-3">
           <Form.Label htmlFor="email-input">Your Email</Form.Label>
           <Form.Control
@@ -78,6 +80,7 @@ export default function Contact() {
 
         <Button type="submit" variant="primary">Send Message</Button>
       </Form>
+      </div>
 
       {status && (
         <p className="mt-3" aria-live="polite">
