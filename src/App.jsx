@@ -20,13 +20,13 @@ function App() {
         <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<AboutMe />} />
           {artData.map((collection) => {
             return <Route 
               key={collection.collectionTitle} 
               path={`/gallery/${collection.slug}`} 
               element={<GalleryPage collection={collection} />} />
           })}
+          <Route path="/about" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NoMatch />} />
           </Route>
