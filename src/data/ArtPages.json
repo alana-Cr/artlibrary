@@ -1,5 +1,60 @@
 {
   "collections": [
+     {
+      "collectionTitle": "Recent Works",
+      "slug": "recent-works",
+      "artworks": [
+        {
+          "img": "WinterTrees_t848pl.jpg",
+          "title": "Winter Trees",
+          "description": "Two leaveless trees frame a cityscape from across a body of water",
+          "materials": "Oil paint on masonite board",
+          "size": "14 x 20 inches"
+        },
+        {
+          "img": "SpringTrees_cc9lb9.jpg",
+          "title": "Come Spring",
+          "description": "Two leaveless trees in early spring on a cloudy day",
+          "materials": "Oil paint on masonite board",
+          "size": "14 x 20 inches"
+        },
+        {
+          "img": "Orchids_lt5dxx.jpg",
+          "title": "Orchids",
+          "description": "Pink orchids in a pot on a bedside table",
+          "materials": "Oil paint on canvas",
+          "size": "16 x 20 inches"
+        },
+        {
+          "img": "WindowCat_xvqqx6.jpg",
+          "title": "Looking Out",
+          "description": "A cat sitting on a windowsill, looking outside ",
+          "materials": "Oil paint on masonite board",
+          "size": "14 x 20 inches"
+        },
+        {
+          "img": "DoddFlowers_hhu0xp.jpg",
+          "title": "Recreation of Lois Dodd's Black Cohosh in Bloom",
+          "description": "A recreation of Lois Dodd's painting of black cohosh flowers, showing white flowers on a green background",
+          "materials": "Oil paint on masonite board",
+          "size": "14 x 20 inches"
+        },
+        {
+          "img": "AaronsField_karxos.jpg",
+          "title": "Aaron's Field",
+          "description": "My brother in a field of grass and purple flowers.",
+          "materials": "Oil paint on canvas",
+          "size": "20 x 24 inches"
+        },
+        {
+          "img": "PinkPC_nsyue4.jpg",
+          "title": "Pink PC",
+          "description": "The inside of a computer case, showing a bright pink colored fan",
+          "materials": "Oil paint on canvas",
+          "size": "18 x 24 inches"
+        }
+      ]
+    },
     {
       "collectionTitle": "Drawings",
       "slug": "drawings",
